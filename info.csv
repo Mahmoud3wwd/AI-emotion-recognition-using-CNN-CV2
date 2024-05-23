@@ -1,0 +1,11 @@
+,name,path,length,type
+2,angry,images3/images\train\angry,3993,train
+3,fear,images3/images\train\fear,4103,train
+4,happy,images3/images\train\happy,4000,train
+5,neutral,images3/images\train\neutral,4082,train
+6,sad,images3/images\train\sad,4038,train
+7,angry,images3/images\validation\angry,960,validation
+8,fear,images3/images\validation\fear,1018,validation
+9,happy,images3/images\validation\happy,1825,validation
+10,neutral,images3/images\validation\neutral,1216,validation
+11,sad,images3/images\validation\sad,1139,validation
