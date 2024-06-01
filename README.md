@@ -40,8 +40,8 @@ This project aims to recognize human emotions from facial expressions using Conv
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/emotion-recognition-cnn.git
-   cd emotion-recognition-cnn
+   git clone https://github.com/mahmoud3wwd/AI-emotion-recognition-using-CNN-CV2.git
+   cd AI-emotion-recognition-using-CNN-CV2
 
 
 ![image](https://github.com/Mahmoud3wwd/AI-emotion-recognition-using-CNN-CV2/assets/150680874/4906b218-eee5-45fc-8b1a-41a978ac3021)
