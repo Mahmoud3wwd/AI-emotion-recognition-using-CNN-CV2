@@ -48,22 +48,22 @@ python main.py
 ## Files
 
 - {main.py} : Main script for video capture, face detection, and emotion recognition.
-- {emotionai.py} : Jupyter notebook for training the CNN model.
+- {emotionsai.py} : Jupyter notebook for training the CNN model.
 
-##Training
-- Model trained using emotionai.py.
+## Training
+- Model trained using emotionsai.py.
 - Dataset used: [(https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)]
 - Model architecture: [CNN architecture details]
 - Training parameters: [Epochs, batch size, optimizer, etc.]
 
 
-##Notes
+## Notes
 - face detection using Haar cascades (haarcascade_frontalface_default.xml) from OpenCV.
 - Ensure proper lighting and camera positioning for accurate emotion recognition.- Model architecture: [CNN architecture details]
 - Assumes webcam connected to system.
 
 
-##Future improvment
+## Future improvment
 - Implement robust face detector (e.g., Dlib, MTCNN) for better performance..
 - Explore ensemble methods for emotion classification.
 - rain on larger dataset for improved accuracy.
