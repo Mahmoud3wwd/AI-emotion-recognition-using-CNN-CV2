@@ -1,4 +1,3 @@
-DATA SET : https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset
 
 # Emotion Recognition Using CNN
 
@@ -21,8 +20,6 @@ The model is trained on a dataset of labeled facial images. The trained model is
 6. [Training](#training)
 7. [Notes](#notes)
 8. [Future Improvements](#future-improvements)
-9. [Credits](#credits)
-10. [License](#license)
 
 ## Overview
 
@@ -42,6 +39,35 @@ This project aims to recognize human emotions from facial expressions using Conv
    ```bash
    git clone https://github.com/mahmoud3wwd/AI-emotion-recognition-using-CNN-CV2.git
    cd AI-emotion-recognition-using-CNN-CV2
+
+## Usage
+python main.py 
+- This script will open a live video stream from your webcam and overlay the predicted emotion on detected faces.
+
+
+## Files
+
+- {main.py} : Main script for video capture, face detection, and emotion recognition.
+- {emotionai.py} : Jupyter notebook for training the CNN model.
+
+##Training
+- Model trained using emotionai.py.
+- Dataset used: [(https://www.kaggle.com/datasets/jonathanoheix/face-expression-recognition-dataset)]
+- Model architecture: [CNN architecture details]
+- Training parameters: [Epochs, batch size, optimizer, etc.]
+
+
+##Notes
+- face detection using Haar cascades (haarcascade_frontalface_default.xml) from OpenCV.
+- Ensure proper lighting and camera positioning for accurate emotion recognition.- Model architecture: [CNN architecture details]
+- Assumes webcam connected to system.
+
+
+##Future improvment
+- Implement robust face detector (e.g., Dlib, MTCNN) for better performance..
+- Explore ensemble methods for emotion classification.
+- rain on larger dataset for improved accuracy.
+   
 
 
 ![image](https://github.com/Mahmoud3wwd/AI-emotion-recognition-using-CNN-CV2/assets/150680874/4906b218-eee5-45fc-8b1a-41a978ac3021)
